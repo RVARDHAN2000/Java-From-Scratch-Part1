@@ -1,0 +1,15 @@
+//WAJP to find facorial of the given  number
+
+class  P7
+{
+	public static void main(String[] args) 
+	{
+		int x=2, n=4, prod=1;
+		while (n>0)
+		{
+			prod = prod*n;
+			n--;
+		}
+		System.out.println("the factorial of the given number is  is " +prod);
+	}
+}

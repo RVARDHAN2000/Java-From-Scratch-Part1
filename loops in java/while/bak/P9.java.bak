@@ -1,0 +1,14 @@
+////WAJP to x^n of the given number 
+class P9 
+{
+	public static void main(String[] args) 
+	{
+		int x=2, n=4, prod=1;
+	while (n>0)
+	{
+		prod = prod *x;
+		n--;
+	}
+		System.out.println(" x^n of the given number is  "prod);
+	}
+}

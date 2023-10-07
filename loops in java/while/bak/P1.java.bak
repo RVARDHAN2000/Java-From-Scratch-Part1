@@ -1,0 +1,18 @@
+//WAJP to print odd numbers from 20 to 30
+
+class P1
+
+{
+	public static void main(String[] args) 
+	{
+		int a = 20;
+		while (a<=30)
+		{if (a%2==1)
+		{
+			System.out.println(a);	
+		}
+			a++
+		}
+		
+	}
+}

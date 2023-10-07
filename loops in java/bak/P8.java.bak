@@ -1,0 +1,19 @@
+// RECURSION 
+// DIRECT METHOD RECURSION 
+
+//WAJP 
+class  P8
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hi");
+        test(); 
+		System.out.println("Hello ");
+	}
+	public static void test() 
+	{
+		System.out.println("Bye");
+        test(); 
+		System.out.println("Tata ");
+	}
+}

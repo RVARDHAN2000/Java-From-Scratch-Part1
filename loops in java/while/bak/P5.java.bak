@@ -1,0 +1,12 @@
+
+//WAJP to remove last digit of given number 
+class  P5
+{
+	public static void main(String[] args) 
+	{
+		int num = 999;
+		int lastDigit = num/10;
+		
+		System.out.println(lastDigit);
+	}
+}

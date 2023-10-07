@@ -1,0 +1,15 @@
+
+// WAJP to print uppercase alphabates in single line
+
+class P2  
+{
+	public static void main(String[] args) 
+	{
+		char ch ='A';
+		while (ch<='Z')
+		{
+	     System.out.println(ch);
+		 ch++;
+		}
+	}
+}
