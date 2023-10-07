@@ -1,0 +1,8 @@
+class P1 
+{
+	P1(byte a)
+	{
+		System.out.println("HI");
+	}
+    
+}
